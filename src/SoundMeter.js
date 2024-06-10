@@ -44,9 +44,9 @@ const SoundMeter = () => {
 
   return (
     <Card style={{ width: 300, margin: '0 auto', textAlign: 'center' }}>
-      <Title level={2}>Sound Meter</Title>
+      <Title level={2}>Thổi nó đi 😎</Title>
       <Progress type="circle" percent={audioLevel} format={percent => `${percent.toFixed(2)} dB`} />
-      <Text style={{ display: 'block', marginTop: 20 }}>Audio Level: {audioLevel.toFixed(2)} dB</Text>
+      <Text style={{ display: 'block', marginTop: 20 }}>Mạnh mẽ dữ: {audioLevel.toFixed(2)} dB</Text>
       <div style={{ marginTop: 20 }}>
         {isCandleOn ? (
           <img src="/candle-on.svg" alt="Candle On" width={100} />

@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Layout style={{ minHeight: '100vh' }}>
       <Header style={{ color: 'white', textAlign: 'center', fontSize: '24px' }}>
-        Sound Meter App
+        Birthday Cake App
       </Header>
       <Content style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '50px', backgroundColor: '#f0f2f5' }}>
         <SoundMeter />
