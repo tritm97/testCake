@@ -28,7 +28,7 @@ const SoundMeter = () => {
         const average = values / array.length;
 
         setAudioLevel(average);
-        if (average > 15) {
+        if (average > 60) {
           setIsCandleOn(false);
         }
       };
